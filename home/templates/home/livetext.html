@@ -74,9 +74,9 @@
                             </li>
                         </ul>
                         <ul class="nav navbar-nav primary-menu">
-                            <li class="active"><a href="index3.html">Home</a></li>
-                            <li><a href="index4.html">Register</a></li>
-                            <li><a href="index5.html">LogIN</a></li>
+                            <li class="active"><a href="http://127.0.0.1:8000/">Home</a></li>
+                            <li><a href="http://127.0.0.1:8000/register/">Register</a></li>
+                            <li><a href="http://127.0.0.1:8000/login/">LogIN</a></li>
 
                         </ul>
                     </div>
@@ -112,18 +112,19 @@
     <section class="section-padding" id="about-area">
         <div class="container">
             <div class="row">
-                <form action="http://127.0.0.1:8000/LiveText/" method="post" id="liveText">
+                <form action="http://127.0.0.1:8000/livetext/" method="post" id="liveText">
                 <div class="col-xs-12 col-sm-6 col-md-5">
                     <div class="reg_section password">
+                        {% csrf_token %}
                         <h3>Enter Live Text Here</h3>
                         <textarea rows="4" cols="50" name="textarea" id="textarea"></textarea>
                     </div>
                     <div class="wow fadeInUp" data-wow-delay="0.7s">
-                        <input type="submit" id="submit" class="Convert bttn bttn-primary" value="Convert" name="Convert">
+                        <input type="submit" onclick=""  id="submit" class="Convert bttn bttn-primary" value="Convert" name="Convert">
                     </div>
                 </div>
                 <div class="hidden-xs col-sm-6 col-md-offset-1">
-                    <img id="resultImg" src="../../../handwriting-synthesis/img/usage_demo.svg" alt="" border="1">
+                    <img id="resultImg" src="../../static/home/images/usage_demo.svg" alt="" border="1">
                 </div>
                 </form>
             </div>
@@ -292,25 +293,52 @@
     <script src="../../static/home/js/maps.js"></script>
     <script>
 
-         $("#liveText").submit(function(event){
-             $("#resultImg").attr("src","#");
+        {#function loadDoc() {#}
+        {#  var xhttp = new XMLHttpRequest();#}
+        {#  var text = $("#textarea").val();#}
+        {#  xhttp.onreadystatechange = function() {#}
+        {#    if (this.readyState == 4 && this.status == 200) {#}
+        {#      document.getElementById("demo").innerHTML = this.responseText;#}
+        {#    }#}
+        {#  };#}
+        {#  console.log(text);#}
+        {#  xhttp.open("POST", 'http://127.0.0.1:8000/livetext/',true);#}
+          {#xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");#}
+        {#  xhttp.send("textarea="+text);#}
+        {# }#}
+
+        var h = $(document).height();
+        $(window).scrollTop(h/4);
+
+        $("#liveText").submit(function(event){
+            $("#resultImg").attr("src","#");
             event.preventDefault(); //prevent default action
             var post_url = $(this).attr("action"); //get form action url
             var _method = $(this).attr("method"); //get form GET/POST method
             var form_data = new FormData(this); //Creates new FormData object
 
             $.ajax({
-                url : post_url,
-                type: _method,
-                data: form_data,
+               url : post_url,
+               type: _method,
+               data: form_data,
+                processData: false,
                 contentType: false,
-                cache: false,
-                processData:false,
-
+               cache: false,
             }).done(function(response){
-                obj = response;
-                $("#resultImg").attr("src","/home//hina//Music/Django/handwriting-synthesis//img//usage_demo.svg");
-                console.log("Something");
+               obj = response;
+               window.location.reload(true);
+                 {#$("#resultImg").attr("src","../../static/home/images/usage_demo.svg");#}
+
+               {#setTimeout(function(){#}
+               {#    $("#resultImg").attr("src","../../static/home/images/usage_demo.svg");#}
+               {#    var h = $(document).height();#}
+               {#    $(window).scrollTop(h/8);#}
+               {#    console.log("scrolling to bottom");#}
+               {# }, 10000);#}
+
+
+               console.log("Something");
+
             });
         });
 

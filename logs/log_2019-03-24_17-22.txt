@@ -1,0 +1,136 @@
+[[03/24/2019 05:23:05 PM]] Internal Server Error: /livetext/
+Traceback (most recent call last):
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/client/session.py", line 1361, in _do_call
+    return fn(*args)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/client/session.py", line 1340, in _run_fn
+    target_list, status, run_metadata)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/framework/errors_impl.py", line 516, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.OutOfRangeError: Read less bytes than requested
+	 [[Node: save/RestoreV2 = RestoreV2[dtypes=[DT_INT32, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/RestoreV2/tensor_names, save/RestoreV2/shape_and_slices)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/home/views.py", line 20, in live_text
+    demo.generate(text)
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 153, in generate
+    hand = Hand()
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 39, in __init__
+    self.nn.restore()
+  File "/home/hina/Music/Django/handwriting-synthesis/tf_base_model.py", line 326, in restore
+    saver.restore(self.session, model_path)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/training/saver.py", line 1755, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/client/session.py", line 905, in run
+    run_metadata_ptr)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/client/session.py", line 1137, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/client/session.py", line 1355, in _do_run
+    options, run_metadata)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/client/session.py", line 1374, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.OutOfRangeError: Read less bytes than requested
+	 [[Node: save/RestoreV2 = RestoreV2[dtypes=[DT_INT32, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/RestoreV2/tensor_names, save/RestoreV2/shape_and_slices)]]
+
+Caused by op 'save/RestoreV2', defined at:
+  File "/usr/lib/python3.4/threading.py", line 888, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/lib/python3.4/threading.py", line 920, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.4/threading.py", line 868, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.4/socketserver.py", line 617, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.4/socketserver.py", line 344, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.4/socketserver.py", line 673, in __init__
+    self.handle()
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.4/wsgiref/handlers.py", line 137, in run
+    self.result = application(self.environ, self.start_response)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/contrib/staticfiles/handlers.py", line 66, in __call__
+    return self.application(environ, start_response)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/wsgi.py", line 146, in __call__
+    response = self.get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 81, in get_response
+    response = self._middleware_chain(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+    response = self.get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+    response = self.get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+    response = self.get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+    response = self.get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+    response = self.get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/deprecation.py", line 95, in __call__
+    response = self.get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/home/views.py", line 20, in live_text
+    demo.generate(text)
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 153, in generate
+    hand = Hand()
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 37, in __init__
+    attention_mixture_components=10
+  File "/home/hina/Music/Django/handwriting-synthesis/rnn.py", line 85, in __init__
+    super(rnn, self).__init__(**kwargs)
+  File "/home/hina/Music/Django/handwriting-synthesis/tf_base_model.py", line 108, in __init__
+    self.graph = self.build_graph()
+  File "/home/hina/Music/Django/handwriting-synthesis/tf_base_model.py", line 402, in build_graph
+    self.saver = tf.train.Saver(max_to_keep=1)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/training/saver.py", line 1293, in __init__
+    self.build()
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/training/saver.py", line 1302, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/training/saver.py", line 1339, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/training/saver.py", line 796, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/training/saver.py", line 449, in _AddRestoreOps
+    restore_sequentially)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/training/saver.py", line 847, in bulk_restore
+    return io_ops.restore_v2(filename_tensor, names, slices, dtypes)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/ops/gen_io_ops.py", line 1030, in restore_v2
+    shape_and_slices=shape_and_slices, dtypes=dtypes, name=name)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/framework/ops.py", line 3271, in create_op
+    op_def=op_def)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/tensorflow/python/framework/ops.py", line 1650, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+OutOfRangeError (see above for traceback): Read less bytes than requested
+	 [[Node: save/RestoreV2 = RestoreV2[dtypes=[DT_INT32, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/RestoreV2/tensor_names, save/RestoreV2/shape_and_slices)]]
+

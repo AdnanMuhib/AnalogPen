@@ -1,0 +1,23 @@
+[[03/24/2019 06:30:04 PM]] Internal Server Error: /livetext/
+Traceback (most recent call last):
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/home/views.py", line 20, in live_text
+    demo.generate(text)
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 163, in generate
+    styles=styles,
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 62, in write
+    self._draw(strokes, lines, filename, stroke_colors=stroke_colors, stroke_widths=stroke_widths)
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 149, in _draw
+    dwg.save()
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/svgwrite/drawing.py", line 116, in save
+    fileobj = io.open(self.filename, mode='w', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\FYP\\Hand writing synthesis/handwriting-synthesis/img/usage_demo.svg'

@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68d8f9d0-ba76-457e-bbc5-011216361d8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/checkpoints/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/checkpoints/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/checkpoints/model-17900.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/checkpoints/model-17900.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/data/raw/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/data/raw/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/data_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/data_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/drawing.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/drawing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/img/all_star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/img/all_star.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/img/banner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/img/downtown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/img/downtown.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/img/give_up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/img/give_up.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/img/usage_demo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/img/usage_demo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/lyrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/lyrics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/prepare_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/rnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/rnn_cell.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/rnn_cell.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/rnn_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/rnn_ops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/tf_base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/tf_base_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handwriting-synthesis/tf_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/handwriting-synthesis/tf_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AnalogPen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AnalogPen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalogPen/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnalogPen/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalogPen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnalogPen/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/home/images/usage_demo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/home/images/usage_demo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/livetext.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/livetext.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AnalogPen/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="165">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
                 <element signature="e#1#33#0" expanded="true" />
               </folding>
@@ -65,19 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/templates/home/livetext.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="125" column="101" selection-start-line="125" selection-start-column="101" selection-end-line="125" selection-end-column="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AnalogPen/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-832">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="289">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -85,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -106,8 +84,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="240">
+              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +96,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
+            <state relative-caret-position="735">
               <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/templates/home/livetext.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="76" column="78" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -141,15 +131,18 @@
       <find>sourceMappingURL</find>
       <find>img</find>
       <find>resultImg</find>
+      <find>liveText</find>
+      <find>livetext</find>
+      <find>textarea</find>
+      <find>index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/handwriting-synthesis" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AnalogPen/settings.py" />
         <option value="$PROJECT_DIR$/home/templates/home/home.html" />
         <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/users/static/users/css1/style.css" />
@@ -160,16 +153,18 @@
         <option value="$PROJECT_DIR$/users/templates/users/login.html" />
         <option value="$PROJECT_DIR$/home/static/home/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/home/views.py" />
-        <option value="$PROJECT_DIR$/AnalogPen/urls.py" />
+        <option value="$PROJECT_DIR$/../handwriting-synthesis/demo.py" />
+        <option value="$PROJECT_DIR$/AnalogPen/settings.py" />
         <option value="$PROJECT_DIR$/home/templates/home/livetext.html" />
+        <option value="$PROJECT_DIR$/AnalogPen/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1303" />
-    <option name="height" value="780" />
+    <option name="x" value="65" />
+    <option name="y" value="764" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,28 +179,19 @@
               <item name="AnalogPen" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnalogPen" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AnalogPen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnalogPen" type="462c0819:PsiDirectoryNode" />
-              <item name="AnalogPen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnalogPen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnalogPen" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../handwriting-synthesis/venv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Summary" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -246,11 +231,12 @@
       <workItem from="1553408584270" duration="2202000" />
       <workItem from="1553415681937" duration="433000" />
       <workItem from="1553416505931" duration="4235000" />
+      <workItem from="1553423340422" duration="24725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19231000" />
+    <option name="totallyTimeSpent" value="43956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,10 +248,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="764" width="1301" height="772" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19681275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15936255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,8 +262,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29302326" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4996016" weight="0.3782946" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003984" side_tool="true" weight="0.65891474" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -383,8 +368,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
+        <state relative-caret-position="735">
           <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.4/site-packages/django/core/servers/basehttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../handwriting-synthesis/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="159" column="75" selection-start-line="159" selection-start-column="75" selection-end-line="159" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../handwriting-synthesis/tf_base_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/home/images/usage_demo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalogPen/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -400,42 +423,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="240">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/views.py">
+    <entry file="file://$PROJECT_DIR$/home/templates/home/livetext.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="76" column="78" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AnalogPen/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="e#1#33#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/home/images/usage_demo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/home/livetext.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="125" column="101" selection-start-line="125" selection-start-column="101" selection-end-line="125" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnalogPen/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-832">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title>AnalogPen Template</title>
+    <title>AnalogPen Home</title>
     <!-- Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" href="../../static/home/images/apple-touch-icon.png">
     <link rel="shortcut icon" type="image/ico" href="../../static/home/images/favicon.ico" />
@@ -60,27 +60,28 @@
                         <a class="navbar-brand" href="#home-area"><img src="../../static/home/images/logo.png" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse navbar-right" id="mainmenu">
-                        <ul class="nav navbar-nav navbar-right help-menu">
-                            <li><a href=""><i class="icofont icofont-user-alt-4"></i></a></li>
-                            <li><a href="#search-box" data-toggle="collapse"><i class="icofont icofont-search-alt-2"></i></a></li>
-                            <li class="select-Country">
-                                <select name="counter" id="counter">
-                                        <option value="ENG">ENG</option>
-                                        <option value="BEN">BEN</option>
-                                        <option value="ARA">ARA</option>
-                                        <option value="ARG">ARG</option>
-                                        <option value="CHV">CHV</option>
-                                </select>
-                            </li>
-                        </ul>
+{#                        <ul class="nav navbar-nav navbar-right help-menu">#}
+{#                            <li><a href=""><i class="icofont icofont-user-alt-4"></i></a></li>#}
+{#                            <li><a href="#search-box" data-toggle="collapse"><i class="icofont icofont-search-alt-2"></i></a></li>#}
+{#                            <li class="select-Country">#}
+{#                                <select name="counter" id="counter">#}
+{#                                        <option value="ENG">ENG</option>#}
+{#                                        <option value="BEN">BEN</option>#}
+{#                                        <option value="ARA">ARA</option>#}
+{#                                        <option value="ARG">ARG</option>#}
+{#                                        <option value="CHV">CHV</option>#}
+{#                                </select>#}
+{#                            </li>#}
+{#                        </ul>#}
+
                         <ul class="nav navbar-nav primary-menu">
                             <li class="active"><a href="#home-area">Home</a></li>
                             <li><a href="#service-area">Services</a></li>
                             <li><a href="#team-area">Team</a></li>
                             <li><a href="#price-area">Price</a></li>
                             <li><a href="#contact-area">Contact</a></li>
-                            <li><a href="{% url 'register-page' %}">Register</a></li>
-                            <li><a href="{% url 'login-page' %}">LogIN</a></li>
+                            <li><a href="http://127.0.0.1:8000/register/">Register</a></li>
+                            <li><a href="http://127.0.0.1:8000/login/">LogIN</a></li>
 
                         </ul>
                     </div>
@@ -136,7 +137,7 @@
     <!-- About-Area / -->
 
 
-    <section class="section-padding gray-bg">
+    <section class="section-padding gray-bg" id="service-area">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
@@ -151,7 +152,7 @@
                     <div class="service-box">
                         <div class="box-image">
                             <img src="../../static/home/images/service-1.jpg" alt="">
-                            <a href="livetext.html" class="box-plus">
+                            <a href="http://127.0.0.1:8000/livetext/" class="box-plus">
                                 <i class="icofont icofont-plus"></i>
                             </a>
                         </div>
@@ -165,7 +166,7 @@
                     <div class="service-box">
                         <div class="box-image">
                             <img src="../../static/home/images/service-2.jpg" alt="">
-                            <a href="textdocument.html" class="box-plus">
+                            <a href="http://127.0.0.1:8000/textdocument" class="box-plus">
                                 <i class="icofont icofont-plus"></i>
                             </a>
                         </div>
@@ -474,4 +475,280 @@
                                 <li>Free Secuirity Service</li>
                                 <li>Dedicated Useable Account</li>
                             </ul>
-                            <a href="#" class="bttn bttn-sm bttn-
+                            <a href="#" class="bttn bttn-sm bttn-default">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Price-Area -->
+
+
+
+
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                    <div class="page-title text-center">
+                        <h2 class="title">Our Working Process</h2>
+                        <p>There are many variations of passages of lorem ipsum avalable</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row process text-center">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-process">
+                        <div class="process-icon">
+                            <i class="icofont icofont-pie"></i>
+                        </div>
+                        <h3>Investigation</h3>
+                        <p>There are many varia tions of passages of Lorem Ipsum available, but the majority.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-process">
+                        <div class="process-icon">
+                            <i class="icofont icofont-users-alt-1"></i>
+                        </div>
+                        <h3>Consultant</h3>
+                        <p>There are many varia tions of passages of Lorem Ipsum available, but the majority.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-process">
+                        <div class="process-icon">
+                            <i class="icofont icofont-brainstorming"></i>
+                        </div>
+                        <h3>Planning</h3>
+                        <p>There are many varia tions of passages of Lorem Ipsum available, but the majority.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-process">
+                        <div class="process-icon">
+                            <i class="icofont icofont-settings-alt"></i>
+                        </div>
+                        <h3>Working</h3>
+                        <p>There are many varia tions of passages of Lorem Ipsum available, but the majority.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="section-padding counter-area overlay">
+        <div class="container">
+            <div class="row counters">
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="count-box media wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="count-icon media-left media-middle">
+                            <i class="icofont icofont-bag-alt"></i>
+                        </div>
+                        <div class="media-right">
+                            <h2 class="count">1172</h2>
+                            <span class="count_title">Project Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="count-box media wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="count-icon media-left media-middle">
+                            <i class="icofont icofont-emo-simple-smile"></i>
+                        </div>
+                        <div class="media-right">
+                            <h2 class="count">1000</h2>
+                            <span class="count_title">Happy Client’S</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="count-box media wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="count-icon media-left media-middle">
+                            <i class="icofont icofont-businessman"></i>
+                        </div>
+                        <div class="media-right">
+                            <h2 class="count">1200</h2>
+                            <span class="count_title">Total Client’s</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="count-box media wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="count-icon media-left media-middle">
+                            <i class="icofont icofont-money"></i>
+                        </div>
+                        <div class="media-right">
+                            <h2 class="count">1172</h2>
+                            <span class="count_title">Wining Award</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact-Area -->
+    <section id="contact-area">
+        <div class="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-title">
+                            <h3 class="bar-title">Contact Now</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-8">
+                        <div class="contact-form">
+                            <form action="process.php" id="contact-form" method="post">
+                                <div class="form-double">
+                                    <input type="text" id="form-name" name="form-name" placeholder="Full Name" required="required">
+                                    <input type="text" placeholder="Phone Number">
+                                </div>
+                                <div class="form-double">
+                                    <input type="email" name="form-email" name="email" id="form-email" placeholder="Your Email" required="required">
+                                    <input type="text" name="form-subject" id="form-subject" placeholder="Subject" required="required">
+                                </div>
+                                <textarea name="form-message" id="message" id="form-message" rows="5" required="required" placeholder="Message"></textarea>
+                                <button class="bttn bttn-primary">Send Now</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="contact-info">
+                            <ul class="info">
+                                <li>
+                                    <span class="info-icon">
+                                        <i class="icofont icofont-social-google-map"></i>
+                                    </span> 160 L ink Road <br /> Dhaka-1216, Bangladesh
+                                </li>
+                                <li>
+                                    <span class="info-icon">
+                                        <i class="icofont icofont-ui-cell-phone"></i>
+                                    </span> (+00) 99 33 247
+                                </li>
+                                <li>
+                                    <span class="info-icon">
+                                        <i class="icofont icofont-envelope"></i>
+                                    </span> Info@fabiocode.com
+                                </li>
+                            </ul>
+                            <div class="social-menu-2">
+                                <a href="#"><i class="icofont icofont-social-twitter"></i></a>
+                                <a href="#"><i class="icofont icofont-social-skype"></i></a>
+                                <a href="#"><i class="icofont icofont-social-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-Area / -->
+    <div id="maps"></div>
+    <!-- Footer-Area -->
+    <footer class="footer-area">
+        <div class="footer-top section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-3">
+                        <div class="footer-text">
+                            <h4 class="upper">Classic</h4>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+                            <div class="social-menu">
+                                <a href="#"><i class="icofont icofont-social-facebook"></i></a>
+                                <a href="#"><i class="icofont icofont-social-twitter"></i></a>
+                                <a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+                                <a href="#"><i class="icofont icofont-social-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-2 col-md-offset-1">
+                        <div class="footer-single">
+                            <h4 class="upper">News</h4>
+                            <ul>
+                                <li><a href="#">Subsciption</a></li>
+                                <li><a href="#">New Apps</a></li>
+                                <li><a href="#">Download now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <div class="footer-single">
+                            <h4 class="upper">Company</h4>
+                            <ul>
+                                <li><a href="#">Screenshot</a></li>
+                                <li><a href="#">Fetures</a></li>
+                                <li><a href="#">Price</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <div class="footer-single">
+                            <h4 class="upper">Resources</h4>
+                            <ul>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Privacy &amp; Term</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <div class="footer-single">
+                            <h4 class="upper">Solutions</h4>
+                            <ul>
+                                <li><a href="#">Bug Fixing</a></li>
+                                <li><a href="#">Upgrade</a></li>
+                                <li><a href="#">Malware Protect</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <p class="copyright">Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | This template is made with <i class="icofont icofont-heart-alt" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer-Area / -->
+
+    <!--Vendor-JS-->
+    <script src="../../static/home/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../static/home/js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="../../static/home/js/owl.carousel.min.js"></script>
+    <script src="../../static/home/js/appear.js"></script>
+    <script src="../../static/home/js/bars.js"></script>
+    <script src="../../static/home/js/waypoints.min.js"></script>
+    <script src="../../static/home/js/counterup.min.js"></script>
+    <script src="../../static/home/js/easypiechart.min.js"></script>
+    <script src="../../static/home/js/mixitup.min.js"></script>
+    <script src="../../static/home/js/contact-form.js"></script>
+    <script src="../../static/home/js/scrollUp.min.js"></script>
+    <script src="../../static/home/js/magnific-popup.min.js"></script>
+    <script src="../../static/home/js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="../../static/home/js/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXZ3vJtdK6aKAEWBovZFe4YKj1SGo9V20&callback=initMap"></script>
+    <script src="../../static/home/js/maps.js"></script>
+</body>
+</html>

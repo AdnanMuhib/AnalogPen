@@ -60,19 +60,19 @@
                         <a class="navbar-brand" href="#home-area"><img src="../../static/home/images/logo.png" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse navbar-right" id="mainmenu">
-                        <ul class="nav navbar-nav navbar-right help-menu">
-                            <li><a href=""><i class="icofont icofont-user-alt-4"></i></a></li>
-                            <li><a href="#search-box" data-toggle="collapse"><i class="icofont icofont-search-alt-2"></i></a></li>
-                            <li class="select-Country">
-                                <select name="counter" id="counter">
-                                        <option value="ENG">ENG</option>
-                                        <option value="BEN">BEN</option>
-                                        <option value="ARA">ARA</option>
-                                        <option value="ARG">ARG</option>
-                                        <option value="CHV">CHV</option>
-                                </select>
-                            </li>
-                        </ul>
+{#                        <ul class="nav navbar-nav navbar-right help-menu">#}
+{#                            <li><a href=""><i class="icofont icofont-user-alt-4"></i></a></li>#}
+{#                            <li><a href="#search-box" data-toggle="collapse"><i class="icofont icofont-search-alt-2"></i></a></li>#}
+{#                            <li class="select-Country">#}
+{#                                <select name="counter" id="counter">#}
+{#                                        <option value="ENG">ENG</option>#}
+{#                                        <option value="BEN">BEN</option>#}
+{#                                        <option value="ARA">ARA</option>#}
+{#                                        <option value="ARG">ARG</option>#}
+{#                                        <option value="CHV">CHV</option>#}
+{#                                </select>#}
+{#                            </li>#}
+{#                        </ul>#}
                         <ul class="nav navbar-nav primary-menu">
                             <li class="active"><a href="http://127.0.0.1:8000/">Home</a></li>
                             <li><a href="http://127.0.0.1:8000/register/">Register</a></li>
@@ -124,7 +124,8 @@
                     </div>
                 </div>
                 <div class="hidden-xs col-sm-6 col-md-offset-1">
-                    <img id="resultImg" src="../../static/home/images/usage_demo.svg" alt="" border="1">
+                    <h3>Hand Written Text Output</h3>
+                    <img id="resultImg" src="../../static/home/images/usage_demo.svg" alt="Converting Text to handwriting..." border="1">
                 </div>
                 </form>
             </div>
@@ -308,7 +309,7 @@
         {# }#}
 
         var h = $(document).height();
-        $(window).scrollTop(h/4);
+        $(window).scrollTop(h/4.5);
 
         $("#liveText").submit(function(event){
             $("#resultImg").attr("src","#");

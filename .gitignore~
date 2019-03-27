@@ -1,9 +1,2 @@
-data/raw/ascii
-data/raw/lineStrokes
-data/raw/original
-data/processed
 venv/
-checkpoints/
-
-logs
-predictions
+handwriting-synthesis/

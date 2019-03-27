@@ -1,0 +1,59 @@
+[[03/26/2019 05:34:27 AM]] Not Found: /livetext/images/map-marker.png
+[[03/26/2019 05:34:27 AM]] Not Found: /livetext/images/map-marker.png
+[[03/26/2019 05:35:31 AM]] Internal Server Error: /livetext/
+Traceback (most recent call last):
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/home/views.py", line 28, in live_text
+    demo.generate(text)
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 163, in generate
+    styles=styles,
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 58, in write
+    ).format(char, line_num, valid_char_set)
+ValueError: Invalid character  detected in line 0. Valid character set is {' ', '(', 'x', '7', 'h', 'G', "'", 'p', 'm', 'a', 'n', 'D', 'r', 'w', '3', '.', 'e', '?', '2', '0', 'V', 'A', 'q', 'i', 'U', '4', 'B', 'g', 's', 'Y', 'F', '6', 'K', 'R', 'O', ',', '\x00', 'H', 'l', '-', 't', 'j', 'I', 'C', '9', 'L', 'k', '#', 'z', 'y', '1', 'P', 'T', 'v', 'W', '!', 'o', 'S', 'f', ')', '"', 'E', 'c', 'd', ';', 'N', 'b', 'u', ':', 'J', '5', 'M', '8'}
+[[03/26/2019 05:35:35 AM]] Internal Server Error: /livetext/
+Traceback (most recent call last):
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/home/views.py", line 28, in live_text
+    demo.generate(text)
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 163, in generate
+    styles=styles,
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 58, in write
+    ).format(char, line_num, valid_char_set)
+ValueError: Invalid character  detected in line 0. Valid character set is {' ', '(', 'x', '7', 'h', 'G', "'", 'p', 'm', 'a', 'n', 'D', 'r', 'w', '3', '.', 'e', '?', '2', '0', 'V', 'A', 'q', 'i', 'U', '4', 'B', 'g', 's', 'Y', 'F', '6', 'K', 'R', 'O', ',', '\x00', 'H', 'l', '-', 't', 'j', 'I', 'C', '9', 'L', 'k', '#', 'z', 'y', '1', 'P', 'T', 'v', 'W', '!', 'o', 'S', 'f', ')', '"', 'E', 'c', 'd', ';', 'N', 'b', 'u', ':', 'J', '5', 'M', '8'}
+[[03/26/2019 05:35:40 AM]] Internal Server Error: /livetext/
+Traceback (most recent call last):
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/venv/lib/python3.4/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/hina/Music/Django/AnalogPen/home/views.py", line 28, in live_text
+    demo.generate(text)
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 163, in generate
+    styles=styles,
+  File "/home/hina/Music/Django/handwriting-synthesis/demo.py", line 58, in write
+    ).format(char, line_num, valid_char_set)
+ValueError: Invalid character  detected in line 0. Valid character set is {' ', '(', 'x', '7', 'h', 'G', "'", 'p', 'm', 'a', 'n', 'D', 'r', 'w', '3', '.', 'e', '?', '2', '0', 'V', 'A', 'q', 'i', 'U', '4', 'B', 'g', 's', 'Y', 'F', '6', 'K', 'R', 'O', ',', '\x00', 'H', 'l', '-', 't', 'j', 'I', 'C', '9', 'L', 'k', '#', 'z', 'y', '1', 'P', 'T', 'v', 'W', '!', 'o', 'S', 'f', ')', '"', 'E', 'c', 'd', ';', 'N', 'b', 'u', ':', 'J', '5', 'M', '8'}

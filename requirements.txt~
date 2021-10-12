@@ -1,9 +1,0 @@
-django
-numpy
-svgwrite
-matplotlib
-python3-tk
-scipy
-tensorflow==1.6.0
-pandas
-scikit-learn

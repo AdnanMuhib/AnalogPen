@@ -1,2 +1,2 @@
- pip3 install pandas --no-build-isolation
+pip3 install pandas --no-build-isolation
 sudo apt-get install python-tk
